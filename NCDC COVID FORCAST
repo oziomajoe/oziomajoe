@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NCDC COVID-19 UPDATE</title>
+<style>
+table, td {
+    color:white;
+    text-align:center;
+    padding:5px;
+    margin:10px;
+    
+}
+table {
+    border-spacing: 15px;
+}
+</style>
+</head>
+<body style="background-color:black;text-align:center;">
+<div>
+
+<h1 style="background-color:green;color:white;border:2px solid green;padding:20px;margin:10px">NCDC</h1><br>
+<small style="color:white">NIGERIA CENTER FOR DISEASE CONTROL</small>
+
+<h2 style="color:white">COVID-19 CASE UPDATE</h2>
+
+<h2 style="color:#FFA500">339 NEW CASES CONFIRMED</h2>
+
+<h6 style="color:white">21<sup><small>st</small></sup>May, 2020</h6>
+
+<table style="width:100%">
+
+<tr>
+<td style="background-color:orange;color:black;border:2px solid orange;">TOTAL CONFIRMED</td>
+<td style="background-color:orange;color:black;border:2px solid orange;">7016</td>
+</tr>
+<tr>
+<td style="background-color:green;color:white;border:2px solid green;">DISCHARGED</td>
+<td style="background-color:green;color:white;border:2px solid green;">1907</td>
+</tr>
+<tr>
+<td style="background-color:red;color:white;border:2px solid red;">DEATHS</td>
+<td style="background-color:red;color:white;border:2px solid red;">211</td>
+</table>
+</div>
+
+<p style="color:white">NCDCTollFreeNUMBER:080009000010</p>
+
+<p style="color:white">Twitter/Facebook:@NCDCgov/COVID19.GOV.NG</p>
+
+</body>
+
+</html>
