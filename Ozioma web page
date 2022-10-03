@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OZIOMA WEB PAGE</title>
+    <link rel="stylesheet" href="css/#main.css">
+    <style>
+        body {
+  color: brown;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+  img.profile {
+  border: 1px solid grey;
+  width: 200px;
+  height:200px;
+  padding: 5px;
+  float: left;
+}
+img.favourite {
+  border: 1px solid grey;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+img.logo {
+  margin: 0 auto;
+  display: block;
+}
+section.banner {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background: url('C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\IMG_20180114_064921.jpg');
+  color: #070707;
+  text-align: center;
+  background-attachment: fixed;
+}
+section.banner p {
+  font-size: 18px;
+}
+section.banner h1 {
+  text-transform: uppercase;
+}
+section.about {
+  background: url('C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\double-bubble-dark.png');
+  overflow: hidden;
+}
+section.about h2 {
+  text-align: center;
+}
+section.favourites {
+  text-align: center;
+}
+section.contacts {
+  text-align: center;
+  background: url('C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\food.png');
+}
+section.contact img {
+  margin: 20px;
+}
+section.box {
+  padding: 50px 100px;
+}
+section.box h2, section.box h3 {
+  color: #A8258D;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #434A5C;
+  background: #ffffff;
+}
+.menu a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+  .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <ul>
+  <li class="menu"><a href="#about">About</a></li>
+  <li class="menu"><a href="#favourites">Favourites</a></li>
+  <li class="menu"><a href="#contacts">Contact</a></li>
+        </ul>
+    </section>
+    <section class="banner">
+    <img class="logo" src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\logo.png">
+<h1>OZIOMA JOSHUA</h1>
+<p>Your tagline here</p>
+</section>
+<section class="about box">
+<h2>About Me</h2>
+<img class="profile" src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\profile.jpg">
+<p>i am ozioma joshua from enugu southeast geopolitical zone and i opted for the software dev track</p>
+</section>
+<section class="favourites box">
+<h2>My Favourite Things</h2>
+<img class="favourite" src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\kitten.jpg">
+<img class="favourite" src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\kitten.jpg">
+<img class="favourite" src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\kitten.jpg">
+<img class="favourite" src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\kitten.jpg">
+<h3>Here are a few things i really love</h3>
+<h6>Coming soon</h6>
+</section>
+<section class="contacts box">
+<h2>Contact Me</h2>
+<a href="https://twitter.com/JOziomachi/photo"><img src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\twitter.png"></a> 
+<a href="https://www.facebook.com/"><img src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\facebook.png"></a> 
+<a href="https://www.linkedin.com/in/engr-oziomachim-joshua-8043a220a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B%2BqFdnnJAQiuY7eyv9QBfmA%3D%3D"><img src="C:\Users\Winvd\Documents\DPD CLASS WORK\IMAGE\linkedin.png"></a>
+</section>
+</body>
+</html>
