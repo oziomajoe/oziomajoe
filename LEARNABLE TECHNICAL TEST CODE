@@ -1,0 +1,28 @@
+// JavaScript program to find the nth rarest item in an array
+
+function nth_most_rate(list, n) {
+  // Insert all item/numbers in hash.
+  var hash = new Map();
+  for (var i = 0; i < n; i++) {
+    if (hash.has(list[i])) hash.set(list[i], hash.get(list[i]) + 1);
+    else hash.set(list[i], 1);
+  }
+
+  // find the rarest item
+  var rare_count = n + 1,
+    res = -1;
+
+  hash.forEach((value, key) => {
+    if (rare_count >= value) {
+      res = key;
+      rare_count = value;
+    }
+  });
+
+  return res;
+}
+
+//  list array
+var list = [5, 4, 5, 4, 5, 4, 4, 5, 3, 3, 3, 2, 2, 1, 5];
+var n = list.length;
+console.log(nth_most_rate(list, n));
